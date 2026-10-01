@@ -5,6 +5,10 @@ nav {
     grid-template-rows: 1fr;
 }
 
+h1 > span {
+    color: cornflowerblue;
+}
+
 ul {
     list-style-type: "";
     display: grid;
@@ -61,4 +65,13 @@ search:focus-within {
 .search-input::placeholder,
 .search-icon {
     color: rgba(0, 0, 0, 0.5);
+}
+
+article > span {
+    display: flex;
+    justify-content: end;
+}
+
+.variant {
+    font-weight: bold;
 }
