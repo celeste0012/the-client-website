@@ -75,3 +75,7 @@ article > span {
 .variant {
     font-weight: bold;
 }
+
+.groter {
+    font-size: larger;
+}
