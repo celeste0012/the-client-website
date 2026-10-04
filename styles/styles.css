@@ -84,6 +84,10 @@ search:focus-within {
     color: rgba(0, 0, 0, 0.5);
 }
 
+.count {
+    font-size: 18px;
+}
+
 section {
     display: flex;
     justify-content: end;
