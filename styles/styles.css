@@ -22,15 +22,12 @@ article > p {
     max-width: 450px;
 }
 
-ul {
+.iconen {
     list-style-type: "";
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-
-    @media (min-width: 350px) {
-        grid-template-columns: 150px 150px;
-    }
+    grid-template-rows: repeat(5, 1fr);
+    
 }
 
 article > ul:nth-of-type(1) li:nth-of-type(2) {
@@ -52,6 +49,13 @@ font-weight: bold;
 
 .not-list {
     list-style: none;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    @media (min-width: 350px) {
+        grid-template-columns: 150px 150px;
+    }
 }
 
 search {
