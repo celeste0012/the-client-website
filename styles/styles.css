@@ -18,6 +18,10 @@ h1 > span {
     color: cornflowerblue;
 }
 
+article > p {
+    max-width: 450px;
+}
+
 ul {
     list-style-type: "";
     display: grid;
