@@ -168,8 +168,32 @@ section {
 }
 
 footer {
-    display: grid;
-    grid-template-columns: 1fr;
+    
+
+    @media (min-width: 600px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 40px 1fr;
+        gap: 5px;
+       justify-items: center;
+
+        #first {
+            margin-right: 85px;
+        }
+
+        #second {
+            margin-right: 50px;
+            grid-row-start: 1;
+            grid-column-start: 2;
+
+        }
+
+        #third {
+            grid-row-start: 1;
+            grid-column-start: 3;
+
+        }
+    }
 
     .bigger {
     font-size: larger;
