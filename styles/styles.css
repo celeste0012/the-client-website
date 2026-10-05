@@ -2,27 +2,33 @@
 nav {
     display: flex;
     flex-wrap: wrap;
+
+    .github {
+    display: none;
+    }
 }
 
 h1 {
    max-width: 780px;
+
+   span {
+    color: cornflowerblue;
+}
+
     @media (min-width: 470px) {
         /* clamp: first is min-width, next is preferred width and last is max-width */
         font-size: clamp(2rem, 7vw, 3.5rem);
         
     }
-    
 }
 
-h1 > span {
-    color: cornflowerblue;
-}
+
 
 article > p {
     max-width: 450px;
 }
 
-.iconen {
+.icons {
     list-style-type: "";
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -84,6 +90,7 @@ font-weight: bold;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+
     @media (min-width: 350px) {
         grid-template-columns: 150px 150px;
     }
@@ -97,14 +104,8 @@ search {
     border-radius: 28px;
     background: #f6f6f6;
     transition: 0.25s;
-}
 
-/* wanneer iets in de search gefocussed word, gebeurt dit */
-search:focus-within {
-   box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
-}
-
-.search-input {
+    .search-input {
     font-size: 16px;
     color: #333;
     margin-left: 14px;
@@ -112,11 +113,17 @@ search:focus-within {
     border: none;
     background: transparent;
     width: 180px;
+    }
+
+    .search-input::placeholder,
+    .search-icon {
+    color: rgba(0, 0, 0, 0.5);
+    }
 }
 
-.search-input::placeholder,
-.search-icon {
-    color: rgba(0, 0, 0, 0.5);
+/* wanneer iets in de search gefocussed word, gebeurt dit */
+search:focus-within {
+   box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
 }
 
 .count {
@@ -135,12 +142,11 @@ section {
 footer {
     display: grid;
     grid-template-columns: 1fr;
-}
 
-.groter {
+    .bigger {
     font-size: larger;
+    }
 }
 
-.github {
-    display: none;
-}
+
+
