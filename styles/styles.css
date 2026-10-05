@@ -12,7 +12,7 @@ h1 {
    max-width: 780px;
 
    span {
-    color: cornflowerblue;
+    color: #1F4ED8;
 }
 
     @media (min-width: 470px) {
@@ -30,6 +30,7 @@ article > p {
 
 .icons {
     list-style-type: "";
+    padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(5, 1fr);
