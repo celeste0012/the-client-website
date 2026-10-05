@@ -2,9 +2,36 @@
 nav {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 
     .github {
-    display: none;
+        margin-right: 3px;
+
+
+        @media (max-width: 280px){
+        display:none;
+        }
+    }
+    
+    section {
+        display: flex;
+
+        button {
+            border: 1px;
+            border-radius: 20px;
+            height: 40px;
+            background-color:lightskyblue;
+
+            &:hover {
+                background-color: #7c96e5;
+                cursor:pointer;
+            }
+
+            &:active {
+                background-color: steelblue;
+            }
+
+        }
     }
 }
 
