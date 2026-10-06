@@ -51,7 +51,31 @@ h1 {
     }
 }
 
+article > article {
+    @media (min-width: 1040px) {
+        display: grid;
+    }
+    
 
+    a {
+        min-width: 300px;
+        max-width: 600px;
+        width: 7vw;
+
+
+        @media (max-width: 1040px){
+           display: none;
+           
+        }
+
+        img {
+            min-width: 300px;
+        max-width: 600px;
+        width: 7vw;
+           height: auto;
+        }
+    }
+}
 
 article > p {
     max-width: 450px;
@@ -180,7 +204,8 @@ footer {
        justify-items: center;
 
         #first {
-            margin-right: 85px;
+            display: flex;
+            justify-self: start;
         }
 
         #second {
