@@ -1,9 +1,9 @@
 # The Client - Website
 
-Ontwerp en maak een website voor een opdrachtgever en bespreek het resultaat tijdens de Sprint Review.
+Ontwerp en maak een website voor een opdrachtgever waarbij de iconen makkelijk bereikbaar en te downloaden/kopiëren zijn.
+De website moet ook responsive en toegankelijk zijn.
 
-De instructie van deze leertaak staan in de [WIKI](https://github.com/fdnd-task/the-client-website/wiki)
-
+Hier is de website: https://celeste0012.github.io/the-client-website/
 
 
 ## Inhoudsopgave Readme
@@ -19,7 +19,18 @@ De instructie van deze leertaak staan in de [WIKI](https://github.com/fdnd-task/
 <!-- Voeg een link toe naar Github Pages 🌐-->
 Voor iedereen die rechtenvrije iconen wil is deze website gemaakt, met iconen en illustraties die rechtenvrij zijn.
 De pagina is responsive en is Mobile first ontworpen en gemaakt. 
-Hier is de website: https://celeste0012.github.io/the-client-website/
+
+### Hier is de pagina op pc:
+<img width="1847" height="915" alt="afbeelding" src="https://github.com/user-attachments/assets/99f6c4cc-f56c-4020-816c-ef32765f8ca3" />
+<img width="1857" height="921" alt="afbeelding" src="https://github.com/user-attachments/assets/bf99a3b5-4c19-4dee-a03c-98d79a48ad61" />
+<img width="1837" height="236" alt="afbeelding" src="https://github.com/user-attachments/assets/fa319c82-465a-4ff7-8e38-9d6b19770b47" />
+
+
+### Hier is de pagina op mobiel:
+
+<img width="312" height="845" alt="afbeelding" src="https://github.com/user-attachments/assets/68c24213-bc2b-4f84-983c-ab2614919433" />
+<img width="312" height="861" alt="afbeelding" src="https://github.com/user-attachments/assets/661d59e7-7f8d-4387-8a9b-7c3769dcf5d9" />
+<img width="312" height="556" alt="afbeelding" src="https://github.com/user-attachments/assets/22162eaf-5bd6-4300-a6b1-239afdd428f1" />
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framework of library gebruikt? -->
